@@ -1,0 +1,37 @@
+{
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": false
+  },
+  "enableAllProjectMcpServers": false,
+  "disableBypassPermissionsMode": "disable",
+  "permissions": {
+    "defaultMode": "plan",
+    "allow": [
+      "Read(./**)",
+      "Write(./**)"
+    ],
+    "deny": [
+      "Write(./Input/**)",
+      "Edit(./Input/**)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Write(./.env)",
+      "Write(./.env.*)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.config/gh/**)",
+      "Read(~/.config/gcloud/**)",
+      "Read(~/.npmrc)",
+      "Read(~/.gitconfig)",
+      "Read(**/token.json)",
+      "Read(**/credentials.json)",
+      "Bash(sudo:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(nc:*)",
+      "Bash(ncat:*)",
+      "Bash(telnet:*)"
+    ]
+  }
+}
