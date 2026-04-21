@@ -1,0 +1,29 @@
+[作品フォルダ]/
+├── CLAUDE.md                          （既に完了）
+├── PLANNING_FLOW.md                   （修正版・出力済み）
+├── .claude/
+│   ├── settings.json                  （既存の権限設定）
+│   └── agents/
+│       ├── director.md                （出力済み）
+│       ├── scene_planner.md           （出力済み）
+│       └── continuity_checker.md      （出力済み）
+├── Input/
+│   ├── README.md                      （出力済み）
+│   ├── actors/
+│   │   ├── persons/                   （空）
+│   │   └── collectives/               （空）
+│   ├── relations/
+│   │   └── types.md                   （出力済み）
+│   ├── spaces/                        （空）
+│   ├── timeline/
+│   │   └── threads/                   （空）
+│   ├── world/
+│   │   └── structures.md              （出力済み）
+│   ├── themes/                        （空）
+│   └── TheText/                       （空）
+└── Output/
+    ├── change_proposals.md            （出力済み）
+    ├── scenes/                        （空）
+    ├── drafts/                        （空）
+    ├── scene_manifests/               （空）
+    └── continuity_log/                （空）
